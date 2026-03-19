@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Framework | Pradip Gaire ePortfolio</title>
+    <meta name="description" content="Bootstrap grid, components, and responsive design example." />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="../index.html">Pradip Gaire</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+              <li class="nav-item"><a data-nav-link class="nav-link" href="../index.html">Home</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="full-stack.html">Full Stack</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="html.html">HTML</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="css.html">CSS</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="bootstrap.html">Bootstrap</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="javascript.html">JavaScript</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="projects.html">Projects</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="main-content">
+        <!-- Bootstrap introduction -->
+        <section class="hero">
+          <div class="container">
+            <div class="hero-card reveal">
+              <span class="hero-tag">Section 4: Bootstrap Framework</span>
+              <h1 class="display-6 fw-bold">Fast and Responsive UI Development with Bootstrap</h1>
+              <p>
+                <strong>Bootstrap</strong> is a popular CSS framework that provides ready-made classes for layout,
+                spacing, typography, components, and responsiveness. It helps developers build professional interfaces
+                faster without writing all CSS from zero.
+              </p>
+              <p class="mb-0">
+                In this portfolio, Bootstrap is used for navigation bars, responsive grids, cards, buttons, and
+                spacing utilities that ensure consistent behavior on desktop and mobile devices.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section pt-0">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-md-4 reveal">
+                <div class="section-box h-100">
+                  <h2 class="h5">Grid System</h2>
+                  <p>
+                    Bootstrap uses a 12-column grid. Developers can assign different column widths for different screen
+                    sizes using classes like <code>col-md-6</code> and <code>col-lg-4</code>.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4 reveal">
+                <div class="section-box h-100">
+                  <h2 class="h5">Responsive Design</h2>
+                  <p>
+                    Breakpoint classes allow layouts to adapt automatically. A component can appear in one column on mobile
+                    and multiple columns on larger screens with minimal code changes.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4 reveal">
+                <div class="section-box h-100">
+                  <h2 class="h5">Reusable Components</h2>
+                  <p>
+                    Bootstrap includes pre-styled components such as navbars, cards, badges, forms, and buttons.
+                    This improves consistency and speeds up development.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-lg-7 reveal">
+                <div class="topic-card h-100">
+                  <h3 class="h5">Bootstrap Example Layout Code</h3>
+                  <pre class="code-panel"><code>&lt;div class="container my-4"&gt;
+  &lt;div class="row g-3"&gt;
+    &lt;div class="col-md-6 col-lg-4"&gt;
+      &lt;div class="card h-100"&gt;
+        &lt;div class="card-body"&gt;
+          &lt;h5 class="card-title"&gt;HTML Demo&lt;/h5&gt;
+          &lt;p class="card-text"&gt;Basic page structure example.&lt;/p&gt;
+          &lt;a href="#" class="btn btn-primary"&gt;Open&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                </div>
+              </div>
+
+              <div class="col-lg-5 reveal">
+                <div class="topic-card h-100">
+                  <h3 class="h5">Why I Use Bootstrap</h3>
+                  <ul class="list-clean mb-0">
+                    <li>Reduces development time during assignment work.</li>
+                    <li>Maintains visual consistency across multiple pages.</li>
+                    <li>Supports responsive design by default.</li>
+                    <li>Provides accessible and tested UI components.</li>
+                    <li>Allows easy customization with external CSS.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Visual mini demonstration -->
+            <div class="demo-box mt-4 reveal">
+              <h4 class="h5 mb-3">Bootstrap Component Demonstration</h4>
+              <div class="row g-3">
+                <div class="col-sm-6 col-lg-4">
+                  <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                      <h5 class="card-title">Navbar</h5>
+                      <p class="card-text">Responsive top navigation with collapse on smaller devices.</p>
+                      <button class="btn btn-outline-primary btn-sm" type="button">Example Button</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                  <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                      <h5 class="card-title">Card</h5>
+                      <p class="card-text">Organized presentation for related information blocks.</p>
+                      <span class="badge text-bg-secondary">Reusable UI</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-lg-4">
+                  <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                      <h5 class="card-title">Grid</h5>
+                      <p class="card-text">Columns adapt between phone, tablet, and desktop views.</p>
+                      <span class="text-muted small">Class-based responsiveness</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="soft-btn soft-btn-primary d-inline-block mt-3" href="../demos/bootstrap-grid-demo.html">Open Bootstrap Grid Demo</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container d-md-flex justify-content-between align-items-center">
+          <p>&copy; 2026 Pradip Gaire | CET138 ePortfolio | ISMT College, Chitwan</p>
+          <div class="footer-links">
+            <a href="mailto:pradipgaire10@gmail.com"><i class="bi bi-envelope"></i> Email</a>
+            <a href="../demos/bootstrap-grid-demo.html"><i class="bi bi-grid-3x3-gap"></i> Bootstrap Demo</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

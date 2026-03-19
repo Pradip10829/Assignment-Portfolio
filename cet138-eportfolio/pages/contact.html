@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Pradip Gaire ePortfolio</title>
+    <meta name="description" content="Contact page with professional message form and email details." />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="../index.html">Pradip Gaire</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+              <li class="nav-item"><a data-nav-link class="nav-link" href="../index.html">Home</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="full-stack.html">Full Stack</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="html.html">HTML</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="css.html">CSS</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="bootstrap.html">Bootstrap</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="javascript.html">JavaScript</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="projects.html">Projects</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="main-content">
+        <!-- Contact introduction -->
+        <section class="hero">
+          <div class="container">
+            <div class="hero-card reveal">
+              <span class="hero-tag">Contact</span>
+              <h1 class="display-6 fw-bold">Professional Contact Page</h1>
+              <p>
+                Thank you for reviewing my ePortfolio. If you would like to discuss academic collaboration,
+                internship opportunities, or professional communication, please send a message using the form below.
+              </p>
+              <p class="mb-0">
+                I will respond in a professional and timely manner.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section pt-0">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-lg-7 reveal">
+                <div class="section-box h-100">
+                  <h2 class="h4 mb-3">Send a Message</h2>
+                  <!-- Contact form with JavaScript validation -->
+                  <form id="contact-form" novalidate>
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Full Name</label>
+                      <input id="name" class="form-control" type="text" placeholder="Enter your full name" required />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email Address</label>
+                      <input id="email" class="form-control" type="email" placeholder="example@email.com" required />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea id="message" class="form-control" rows="5" placeholder="Write your message here" required></textarea>
+                    </div>
+
+                    <button class="soft-btn soft-btn-primary" type="submit">Submit Message</button>
+                    <p id="form-feedback" class="feedback-text mt-3" aria-live="polite"></p>
+                  </form>
+                </div>
+              </div>
+
+              <div class="col-lg-5 reveal">
+                <div class="section-box h-100">
+                  <h2 class="h4">Contact Information</h2>
+                  <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:pradipgaire10@gmail.com">pradipgaire10@gmail.com</a>
+                  </p>
+                  <p>
+                    <strong>College:</strong> ISMT College, Chitwan<br />
+                    <strong>Semester:</strong> Second Semester<br />
+                    <strong>Field:</strong> Computer Systems
+                  </p>
+                  <p>
+                    <strong>Current Role:</strong><br />
+                    Admission Officer and Social Media Manager
+                  </p>
+
+                  <div class="note-box">
+                    I am open to opportunities where I can apply my technical learning and communication skills in practical web development projects.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container d-md-flex justify-content-between align-items-center">
+          <p>&copy; 2026 Pradip Gaire | CET138 ePortfolio | ISMT College, Chitwan</p>
+          <div class="footer-links">
+            <a href="mailto:pradipgaire10@gmail.com"><i class="bi bi-envelope"></i> pradipgaire10@gmail.com</a>
+            <a href="../index.html"><i class="bi bi-house"></i> Back to Home</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

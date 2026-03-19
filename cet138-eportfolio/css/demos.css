@@ -1,0 +1,128 @@
+.demo-hero {
+  padding: 3.8rem 0 2rem;
+}
+
+.demo-layout-card {
+  background: #ffffff;
+  border: 1px solid #d3e3f1;
+  border-radius: 16px;
+  padding: 1.15rem;
+  box-shadow: 0 8px 18px rgba(32, 58, 82, 0.08);
+}
+
+.demo-chip {
+  display: inline-block;
+  background: #e8f2fb;
+  border: 1px solid #cfe2f2;
+  border-radius: 999px;
+  color: #275f87;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.25rem 0.65rem;
+}
+
+.flow-col {
+  border: 1px solid #d7e6f3;
+  border-radius: 14px;
+  background: #f9fcff;
+  padding: 0.9rem;
+  min-height: 170px;
+}
+
+.flow-col h4 {
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.flow-col ul {
+  padding-left: 1.1rem;
+  margin-bottom: 0;
+}
+
+.flow-col li {
+  margin-bottom: 0.35rem;
+  color: #4b6076;
+}
+
+.semantic-box {
+  border: 1px dashed #b7cfdf;
+  border-radius: 10px;
+  padding: 0.8rem;
+  margin-bottom: 0.55rem;
+  background: #f8fcff;
+}
+
+.semantic-box strong {
+  color: #1e4f72;
+}
+
+.card-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.card-demo {
+  border: 1px solid #d8e7f3;
+  border-radius: 14px;
+  background: #ffffff;
+  padding: 1rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-demo:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(31, 59, 86, 0.12);
+}
+
+.card-demo .small-tag {
+  display: inline-block;
+  background: #edf5fc;
+  border: 1px solid #d3e3f2;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #2b628a;
+  padding: 0.2rem 0.55rem;
+}
+
+.box-model {
+  background: #f6fbff;
+  border: 1px solid #d7e6f2;
+  border-radius: 12px;
+  padding: 0.9rem;
+}
+
+.box-model .margin {
+  background: #f5edf6;
+  border: 1px dashed #b89ec0;
+  padding: 0.7rem;
+}
+
+.box-model .border {
+  background: #e9f4ff;
+  border: 2px solid #88afd0;
+  padding: 0.65rem;
+}
+
+.box-model .padding {
+  background: #eef8ea;
+  border: 1px dashed #9bb88f;
+  padding: 0.65rem;
+}
+
+.box-model .content {
+  background: #ffffff;
+  border: 1px solid #c8dcee;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.demo-result {
+  border-left: 4px solid #6694b5;
+  background: #ecf5fb;
+  border-radius: 0 10px 10px 0;
+  padding: 0.75rem 0.85rem;
+  margin-top: 0.6rem;
+  color: #33536f;
+}

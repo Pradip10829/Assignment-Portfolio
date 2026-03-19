@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript | Pradip Gaire ePortfolio</title>
+    <meta name="description" content="JavaScript interactivity, DOM manipulation, events, and live mini demos." />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="../index.html">Pradip Gaire</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+              <li class="nav-item"><a data-nav-link class="nav-link" href="../index.html">Home</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="full-stack.html">Full Stack</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="html.html">HTML</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="css.html">CSS</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="bootstrap.html">Bootstrap</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="javascript.html">JavaScript</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="projects.html">Projects</a></li>
+              <li class="nav-item"><a data-nav-link class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="main-content">
+        <!-- JavaScript introduction -->
+        <section class="hero">
+          <div class="container">
+            <div class="hero-card reveal">
+              <span class="hero-tag">Section 5: JavaScript</span>
+              <h1 class="display-6 fw-bold">Adding Interactivity to Web Applications</h1>
+              <p>
+                <strong>JavaScript</strong> is a programming language used to make websites interactive. It can respond
+                to user actions, update content without reloading the page, validate forms, and control dynamic behavior.
+              </p>
+              <p class="mb-0">
+                While HTML provides structure and CSS controls appearance, JavaScript creates behavior. This makes web
+                applications more engaging and useful for real users.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section pt-0">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-lg-4 reveal">
+                <div class="section-box h-100">
+                  <h2 class="h5">DOM Manipulation</h2>
+                  <p>
+                    The DOM (Document Object Model) represents webpage elements as objects. JavaScript can select these
+                    elements and change text, style, classes, and attributes in real time.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4 reveal">
+                <div class="section-box h-100">
+                  <h2 class="h5">Events</h2>
+                  <p>
+                    Events are user actions such as click, input, submit, and hover. JavaScript listens for these events
+                    and runs specific functions when they occur.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4 reveal">
+                <div class="section-box h-100">
+                  <h2 class="h5">Validation &amp; Logic</h2>
+                  <p>
+                    JavaScript can validate data before submission, show helpful messages, and enforce simple rules.
+                    This improves user experience and reduces incorrect input.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-lg-7 reveal">
+                <div class="topic-card h-100">
+                  <h3 class="h5">Simple JavaScript Example Code</h3>
+                  <pre class="code-panel"><code>&lt;button id="demoBtn"&gt;Click Me&lt;/button&gt;
+&lt;p id="output"&gt;Waiting for click...&lt;/p&gt;
+
+&lt;script&gt;
+  const button = document.getElementById("demoBtn");
+  const output = document.getElementById("output");
+
+  button.addEventListener("click", function () {
+    output.textContent = "Button clicked successfully!";
+  });
+&lt;/script&gt;</code></pre>
+                  <p class="mt-3 mb-0">
+                    This example shows event handling with <code>addEventListener()</code> and DOM text updates using
+                    <code>textContent</code>.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-5 reveal">
+                <div class="topic-card h-100">
+                  <h3 class="h5">Interactive Demonstration</h3>
+                  <div class="demo-box mb-3">
+                    <h4 class="h6">Demo 1: Button Click Event</h4>
+                    <button id="demo-click-btn" class="soft-btn soft-btn-primary" type="button">Click Demo Button</button>
+                    <p id="demo-click-output" class="mb-0 mt-2">Button clicked 0 times.</p>
+                  </div>
+
+                  <div class="demo-box">
+                    <h4 class="h6">Demo 2: Input Event</h4>
+                    <input id="demo-input-field" class="form-control" type="text" placeholder="Type your message" />
+                    <p id="demo-input-output" class="mb-0 mt-2">Live Preview: (waiting for text...)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-strip mt-4 reveal">
+              <h4 class="h5 mb-2">Learning Reflection</h4>
+              <p class="mb-0">
+                JavaScript helped me understand how a static webpage becomes an interactive application. Event handling,
+                DOM updates, and form validation are core skills that I will continue to improve while learning backend
+                development and API integration.
+              </p>
+              <a class="soft-btn soft-btn-primary d-inline-block mt-3" href="../demos/javascript-interaction-demo.html">Open JavaScript Interaction Demo</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container d-md-flex justify-content-between align-items-center">
+          <p>&copy; 2026 Pradip Gaire | CET138 ePortfolio | ISMT College, Chitwan</p>
+          <div class="footer-links">
+            <a href="mailto:pradipgaire10@gmail.com"><i class="bi bi-envelope"></i> Email</a>
+            <a href="../demos/javascript-interaction-demo.html"><i class="bi bi-lightning-charge"></i> JS Demo</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
